@@ -9,8 +9,4 @@ vim.opt.expandtab = true -- Use spaces instead of tabs
 require("config.lazy")
 
 vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', {
-    noremap = true
-  })
-
-
-
+    noremap = true })

@@ -1,8 +1,4 @@
-# This is the configuration file for Ghostty.
-
-font-family = Iosevka
-font-size = 16
-window-padding-x = 2
+font-size = 15
 
 # THEMES 
 theme = dark:"Dark Modern",light:catppuccin-latte
@@ -28,20 +24,36 @@ theme = dark:"Dark Modern",light:catppuccin-latte
 # theme = UltraViolent
 # theme = SeaShells
 # theme = Batman
-# LOOKS
-background-opacity=0.9
+
+# Titles
 window-subtitle=working-directory
+
+# Background
+background-opacity=0.98
+
+# Window padding
+window-padding-x=2
+window-padding-y=2
+window-padding-balance= true
+
+# Cursor
 adjust-cursor-thickness=5
 adjust-cursor-height=1
+
+# Spit divider
 split-divider-color=darkgreen
+
+# Clippboard
+clipboard-read = allow
+clipboard-write =  allow
 
 #---------------------------------
 # Custom keybinds
 #---------------------------------
 
 # Inspector
-# keybind = cmd+i=unbind
-# keybind = ctrl+i=inspector:toggle
+keybind = cmd+i=unbind
+keybind = ctrl+i=inspector:toggle
 
 # Tabs
 keybind = ctrl+t=new_tab
