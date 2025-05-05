@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 
 cd ~/repos/my-configs
 
@@ -13,5 +13,5 @@ COMMIT_MESSAGE="${1:-Backup config files}"
 
 git add .
 git commit -m "$COMMIT_MESSAGE"
-git push
+git push -u origin main
 
