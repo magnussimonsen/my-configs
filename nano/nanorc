@@ -1,10 +1,7 @@
-#set modernbindings Dont work
-#bind ^Q quit main Dont work
-#bind ^X cut main Dont work
-#bind ^C copy main Dont work
-#bind ^V paste main 
 
-# Solution: Set alias mnano ='nano --modernbindings' in .bash_aliases instead
+
+# If modernbindings dont work, set
+# alias mnano ='nano --modernbindings' in .bash_aliases instead
 
 include /usr/share/nano/python.nanorc
 
