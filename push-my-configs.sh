@@ -26,10 +26,12 @@ git add .
 
 echo " "
 echo "--- Committing changes..."
+echo " "
 git commit -m "$COMMIT_MESSAGE"
 
 echo " "
 echo "--- Pushing to remote repository (origin/main)..."
+echo " "
 git push -u origin main
 
 echo " "
