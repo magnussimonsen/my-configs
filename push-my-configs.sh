@@ -7,10 +7,11 @@ cd ~/repos/my-configs || {
 
 echo " "
 echo "--- Switched to repository directory: ~/repos/my-configs"
-echo " "
 
 if [[ ! -d .git ]]; then
+  echo " "
   echo "--- This is not a Git repository. Please check your repo location."
+  echo " "
   exit 1
 fi
 
